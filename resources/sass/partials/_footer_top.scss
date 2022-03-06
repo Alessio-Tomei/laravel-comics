@@ -1,0 +1,29 @@
+@import './_variables';
+
+.footer-top {
+    padding: $sectionPadding;
+    background-color: $dcMainColor;
+}
+
+.footer-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-link {
+    width: 20%;
+     a {
+        width: max-content;
+        display: flex;
+        align-items: center;
+        img {
+            height: 65px;
+            margin-right: 20px;
+        }
+        span {
+            color: $lightColor;
+            text-transform: uppercase;
+        }
+    }
+}    

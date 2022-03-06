@@ -1,0 +1,38 @@
+@import './_variables';
+@import './_comics_box';
+
+main {
+    background-color: $darkColor;
+    color: $lightColor;
+}
+
+.jumbotron {
+    height: 500px;
+    overflow: hidden;
+}
+
+.jumbotron img {
+    width: 100%;
+}
+
+.container {
+    .current-series {
+        padding: $sectionPadding;
+        position: relative;
+        .section-title {
+            font-weight: bold;
+            padding: 10px 30px;
+            background-color: $dcMainColor;
+            position: absolute;
+            top: -20px;
+            left: 0;
+        }
+        .comics-container {
+            margin: 0 auto;
+            max-width: 1483px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+$boxDimension: 192px;
+
+.comics-box {
+    padding: 20px 10px;
+    .img-container {
+        width: $boxDimension;
+        height: $boxDimension;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+    p {
+        margin-top: 10px;
+        width: $boxDimension;
+    }
+}
